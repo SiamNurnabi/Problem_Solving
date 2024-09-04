@@ -28,7 +28,7 @@ public static int[] prefixSum(int[] arr) {
 
 some leetcode problems:
 303. Range Sum Query - Immutable - solved
-304. Range Sum Query 2D - Immutable
+304. Range Sum Query 2D - Immutable - solved
 238. Product of Array Except Self
 560. Subarray Sum Equals K
 1248. Count Number of Nice Subarrays

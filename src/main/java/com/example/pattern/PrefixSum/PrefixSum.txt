@@ -9,6 +9,13 @@ Prefix sum array: [1, 3, 6, 10, 15]
 P[i] = A[0] + A[1] + ... + A[i]
 Sum of elements in range [i, j] = P[j] - P[i - 1] if i > 0, else P[j]
 
+Useful for:
+When you need to query the sum of elements in a range multiple times,
+it is more efficient to calculate the prefix sum once and then query the prefix sum array.
+Without prefix sum, for single queries, calculating the sum of elements in a range is O(n) time complexity. For multiple queries, it is O(n*m) time complexity.
+With prefix sum, calculating the sum of elements in a range is O(1) time complexity.
+
+
 Given an array of integers, write a function to calculate the prefix sum of each element in the array.
 public static int[] prefixSum(int[] arr) {
     int[] prefixSums = new int[arr.length];

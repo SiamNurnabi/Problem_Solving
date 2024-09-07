@@ -1,0 +1,36 @@
+Two pointers algorithm is used to solve problems where we need to compare two elements in an array or a string.
+In this algorithm, we initialize two variables to move them towards each other or away from each other depending on the problem.
+
+Example: Let's say you are given a string and you have check if it is a palindrome or not.
+To solve this problem, use two pointers algorithm. Initialize two pointers, one at the beginning of the string and the other at the end of the string.
+Move the pointers towards each other and compare the characters at the pointers. If they are equal, continue moving the pointers towards each other.
+If they are not equal, return false. If the pointers meet, return true.
+
+
+Two pointers algorithm can reduce the time complexity of the problem from O(n^2) to O(n) or O(n log n).
+This algorithm is used in problems like finding the longest substring without repeating characters, finding the longest palindromic substring, etc.
+
+Example: Let's say you are given an array of integers and you have to find the pair of elements whose sum is equal to a given target.
+
+
+LeetCode problems that can be solved using two pointers algorithm:
+167. Two Sum II - Input array is sorted
+633. Sum of Square Numbers
+345. Reverse Vowels of a String
+680. Valid Palindrome II
+524. Longest Word in Dictionary through Deleting
+713. Subarray Product Less Than K
+76. Minimum Window Substring
+209. Minimum Size Subarray Sum
+3. Longest Substring Without Repeating Characters
+11. Container With Most Water
+42. Trapping Rain Water
+26. Remove Duplicates from Sorted Array
+283. Move Zeroes
+80. Remove Duplicates from Sorted Array II
+75. Sort Colors
+88. Merge Sorted Array
+125. Valid Palindrome - solved
+344. Reverse String
+15. 3Sum
+16. 3Sum Closest
